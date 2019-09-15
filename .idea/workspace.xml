@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad1/actividad1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad2/actividad2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/prueba.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Ejercicio1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Ejercicio1.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio15.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio18.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio19.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio20.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio22.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio23.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio24.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio25.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio26.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio27.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio28.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio29.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio30.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio31.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio1-7.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -26,6 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QjGht6QBHVxWP3LRAAmSYLfdNx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -50,8 +76,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.actividad3.html">
-    <configuration name="actividad1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad1/actividad1.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Ejercicio1.html">
+    <configuration name="Ejercicio1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Practica1/Ejercicio1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="actividad2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad2/actividad2.html" useBuiltInWebServerPort="true">
@@ -60,15 +86,19 @@
     <configuration name="actividad3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Ejercicios1-19_CSS2/Actividad1_media/index.html" useBuiltInWebServerPort="true">
+    <configuration name="Ejercicio1-7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica1/Ejercicio1-7.js" working-dir="$PROJECT_DIR$/DWEC/Practica1">
+      <method v="2" />
+    </configuration>
+    <configuration name="Ejercicio9.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica1/Ejercicio9.js" working-dir="$PROJECT_DIR$/DWEC/Practica1">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Ejercicio1.html" />
+        <item itemvalue="Node.js.Ejercicio9.js" />
+        <item itemvalue="Node.js.Ejercicio1-7.js" />
         <item itemvalue="JavaScript Debug.actividad3.html" />
         <item itemvalue="JavaScript Debug.actividad2.html" />
-        <item itemvalue="JavaScript Debug.actividad1.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -83,6 +113,9 @@
       <option name="presentableId" value="Default" />
       <updated>1568276713617</updated>
       <workItem from="1568276714659" duration="6616000" />
+      <workItem from="1568409276150" duration="24000" />
+      <workItem from="1568483275453" duration="609000" />
+      <workItem from="1568559339000" duration="17837000" />
     </task>
     <servers />
   </component>
@@ -94,7 +127,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
