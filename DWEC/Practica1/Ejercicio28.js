@@ -4,10 +4,9 @@ let cadena = prompt("Introduce una cadena de caracteres");
 let vocales = ['a', 'e', 'i', 'o', 'u'];
 let contador = 0;
 
-for (let x = 0; x < String.length; x++) {
+for (let x = 0; x < cadena.length; x++) {
     if (vocales.includes(cadena.charAt(x))) {
         contador++;
     }
 }
-
 alert("La frase: " + cadena + ". Tiene: " + (contador/cadena.length*100) + "% de vocales");

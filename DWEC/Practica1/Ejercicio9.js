@@ -5,7 +5,7 @@ o negativa.*/
 do {
     let nombre = prompt("Introduce el nombre");
     let apellidos = prompt("Introduce tus apellidos");
-    document.write("Su nombre y sus apellidos son: " + nombre + " " + apellidos + "\n");
+    document.write("Su nombre y sus apellidos son: " + nombre + " " + apellidos + '<br>');
     var respuesta = confirm("Desea finalizar el programa?")
 } while (!respuesta)
 
