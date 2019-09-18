@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DWEC/Practica2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -37,6 +38,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DWEC/Practica2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +56,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.actividad3.html">
+  <component name="RunManager" selected="JavaScript Debug.Ejercicio1.html (1)">
+    <configuration name="Ejercicio1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Practica2/Ejercicio1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Ejercicio1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Practica1/Ejercicio1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -60,19 +69,16 @@
     <configuration name="actividad3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Ejercicio1-7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica1/Ejercicio1-7.js" working-dir="$PROJECT_DIR$/DWEC/Practica1">
-      <method v="2" />
-    </configuration>
     <configuration name="Ejercicio9.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica1/Ejercicio9.js" working-dir="$PROJECT_DIR$/DWEC/Practica1">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Ejercicio1.html (1)" />
         <item itemvalue="JavaScript Debug.actividad3.html" />
         <item itemvalue="JavaScript Debug.actividad2.html" />
         <item itemvalue="JavaScript Debug.Ejercicio1.html" />
         <item itemvalue="Node.js.Ejercicio9.js" />
-        <item itemvalue="Node.js.Ejercicio1-7.js" />
       </list>
     </recent_temporary>
   </component>
@@ -92,6 +98,7 @@
       <workItem from="1568559339000" duration="17837000" />
       <workItem from="1568614785219" duration="1774000" />
       <workItem from="1568704624062" duration="3196000" />
+      <workItem from="1568791162942" duration="4716000" />
     </task>
     <servers />
   </component>
