@@ -1,9 +1,0 @@
-@import url("style_screen.css") screen;
-
-@media print {
-	h1 {
-		font-size: 10px;
-	}
-}
-
-

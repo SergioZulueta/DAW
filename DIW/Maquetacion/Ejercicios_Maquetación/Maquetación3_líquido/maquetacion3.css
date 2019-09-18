@@ -1,0 +1,27 @@
+body {
+    margin: auto;
+    max-width: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+
+aside {
+    float: left;
+    max-width: 25%;
+}
+
+article {
+    float: left;
+    max-width: 75%;
+}
+
+.columna {
+    float: left;
+    width: 33%;
+}
+
+.columna li {
+    list-style: none;
+}
