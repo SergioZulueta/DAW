@@ -2,81 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/4/actividad4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/5/actividad5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/Maquetacion/Ejercicios_Maquetación/Maquetación1_fijo/maquetacion1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/Maquetacion/Ejercicios_Maquetación/Maquetación2_elástico/maquetacion2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/Maquetacion/Ejercicios_Maquetación/Maquetación3_líquido/maquetacion3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/.idea/Ejercicios1-19_CSS2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/14/actividad14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/14/actividad14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/15/actividad15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/15/actividad15_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/15/actividad15_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/actividad16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/captura1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/captura2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/electricidad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/fontaneria.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/jardin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/17/actividad17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/17/captura1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/18/actividad18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/18/murphy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/19/actividad19.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/19/actividad19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad1_media/.idea/Actividad1_media.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad1_media/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad1_media/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad1_media/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad1_media/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad1_media/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad1_media/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad1_media/style_screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad1/actividad1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad1/actividad1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad1/actividad1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad2/actividad2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad2/actividad2.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad2_selectores/Actividad2/actividad2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/4/actividad4.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/4/actividad4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/5/actividad5.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/5/actividad5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/6/actividad6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/6/actividad6.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/6/actividad6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/6/imagenes/imagen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/ejemplo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/ejemplo/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/imagenes/imagen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad7_bordes/actividad7.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/imagenes/fondo_menu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/imagenes/imagen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/imagenes/logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,29 +64,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.actividad5.html">
-    <configuration name="actividad3.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad3_herencia_colisiones/actividad3.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Ejercicio1.html">
+    <configuration name="Ejercicio1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Practica2/Ejercicio1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="actividad4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/4/actividad4.html" useBuiltInWebServerPort="true">
+    <configuration name="actividad10.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="actividad5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/5/actividad5.html" useBuiltInWebServerPort="true">
+    <configuration name="actividad11.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="maquetacion2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Maquetacion/Ejercicios_Maquetación/Maquetación2_elástico/maquetacion2.html" useBuiltInWebServerPort="true">
+    <configuration name="actividad9.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="maquetacion3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Maquetacion/Ejercicios_Maquetación/Maquetación3_líquido/maquetacion3.html" useBuiltInWebServerPort="true">
+    <configuration name="Ejercicio1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Practica2">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.actividad5.html" />
-        <item itemvalue="JavaScript Debug.actividad4.html" />
-        <item itemvalue="JavaScript Debug.actividad3.html (1)" />
-        <item itemvalue="JavaScript Debug.maquetacion3.html" />
-        <item itemvalue="JavaScript Debug.maquetacion2.html" />
+        <item itemvalue="JavaScript Debug.Ejercicio1.html" />
+        <item itemvalue="Node.js.Ejercicio1.js" />
+        <item itemvalue="JavaScript Debug.actividad11.html" />
+        <item itemvalue="JavaScript Debug.actividad10.html" />
+        <item itemvalue="JavaScript Debug.actividad9.html" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +109,8 @@
       <workItem from="1568791162942" duration="4716000" />
       <workItem from="1568827144886" duration="4311000" />
       <workItem from="1568832840689" duration="261000" />
+      <workItem from="1568876560483" duration="8910000" />
+      <workItem from="1568890682320" duration="80000" />
     </task>
     <servers />
   </component>

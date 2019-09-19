@@ -1,0 +1,12 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+strong{
+    text-decoration: underline black;
+}
