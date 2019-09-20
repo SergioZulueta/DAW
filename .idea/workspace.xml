@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad7_bordes/Origen/actividad4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad8_colores_imagenes/actividad8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/10/actividad10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -111,6 +104,7 @@
       <workItem from="1568832840689" duration="261000" />
       <workItem from="1568876560483" duration="8910000" />
       <workItem from="1568890682320" duration="80000" />
+      <workItem from="1568975267729" duration="1508000" />
     </task>
     <servers />
   </component>
