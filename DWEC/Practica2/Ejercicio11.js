@@ -14,9 +14,3 @@ for(let i; añoActual < añoFuturo; i++) {
 }
 alert("Habran "+contador+" domingos en el 1 de enero");
 
-//11. ¿Cuantos dıas faltan para Navidad?
-let hoy = new Date();
-let navidad = new Date(2019,11,25);
-
-let dias = navidad.getTime() - hoy.getTime();
-alert(Math.round(dias/ (1000*60*60*24)));

@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio3.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +45,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -66,19 +74,19 @@
     <configuration name="actividad11.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="actividad9.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/9/actividad9.html" useBuiltInWebServerPort="true">
+    <configuration name="Ejercicio1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Practica2">
       <method v="2" />
     </configuration>
-    <configuration name="Ejercicio1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Practica2">
+    <configuration name="Ejercicio4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica2/Ejercicio4.js" working-dir="$PROJECT_DIR$/DWEC/Practica2">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.Ejercicio1.html" />
+        <item itemvalue="Node.js.Ejercicio4.js" />
         <item itemvalue="Node.js.Ejercicio1.js" />
         <item itemvalue="JavaScript Debug.actividad11.html" />
         <item itemvalue="JavaScript Debug.actividad10.html" />
-        <item itemvalue="JavaScript Debug.actividad9.html" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +113,7 @@
       <workItem from="1568890682320" duration="80000" />
       <workItem from="1568975267729" duration="1508000" />
       <workItem from="1569062401956" duration="1036000" />
-      <workItem from="1569168987598" duration="2176000" />
+      <workItem from="1569168987598" duration="7405000" />
     </task>
     <servers />
   </component>
