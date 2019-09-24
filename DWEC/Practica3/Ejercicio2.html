@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="Ejercicio2.js"></script>
+    <title>Title</title>
+    <style type="text/css">
+        .principal {
+            padding: 20px;
+            background-color: #11e2ff;
+            width: 40%;
+            margin: 0 auto;
+        }
+
+        body {
+            background-color: #11e2ff;
+            align-content: center;
+        }
+
+        td {
+            background-color: white;
+        }
+
+        .derecha {
+            margin-top: 18px;
+            float: left;
+            width: 50%;
+            border: 1px solid;
+            height: 157px;
+            text-align: center;
+        }
+
+        .texto {
+            margin-top: 50px;
+        }
+
+        * {
+            box-sizing: border-box;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+<div class="principal">
+    <h1>Calendario-agenda.</h1>
+
+    <div class="derecha">
+        <input type="date" id="fecha" name="">
+        <input type="text" name="" id="texto" class="texto"> <br>
+        <input type="button" name="" value="Inicializar" onclick="guardarAnotacion()"> <input type="button" name=""
+                                                                                              value="Visualizar anotaciones"
+                                                                                              onclick="mostrarAnotaciones()">
+    </div>
+</div>
+</body>
+</html>

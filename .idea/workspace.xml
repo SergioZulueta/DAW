@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +17,7 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,6 +29,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/DWEC/Practica3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -58,29 +59,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Ejercicio1.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.Ejercicio2.html">
     <configuration name="Ejercicio1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Practica3/Ejercicio1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Ejercicio1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Practica2/Ejercicio1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="Ejercicio2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Practica3/Ejercicio2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Ejercicio1.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica3/Ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Practica3">
       <method v="2" />
     </configuration>
-    <configuration name="Ejercicio1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Practica2">
-      <method v="2" />
-    </configuration>
-    <configuration name="Ejercicio4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica2/Ejercicio4.js" working-dir="$PROJECT_DIR$/DWEC/Practica2">
+    <configuration name="Ejercicio2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.js" working-dir="$PROJECT_DIR$/DWEC/Practica3">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Ejercicio2.html" />
+        <item itemvalue="Node.js.Ejercicio2.js" />
         <item itemvalue="JavaScript Debug.Ejercicio1.html (1)" />
         <item itemvalue="Node.js.Ejercicio1.js (1)" />
         <item itemvalue="JavaScript Debug.Ejercicio1.html" />
-        <item itemvalue="Node.js.Ejercicio4.js" />
-        <item itemvalue="Node.js.Ejercicio1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +110,7 @@
       <workItem from="1569062401956" duration="1036000" />
       <workItem from="1569168987598" duration="7405000" />
       <workItem from="1569306313065" duration="9957000" />
+      <workItem from="1569348223880" duration="2497000" />
     </task>
     <servers />
   </component>
