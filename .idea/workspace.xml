@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +109,7 @@
       <workItem from="1569168987598" duration="7405000" />
       <workItem from="1569306313065" duration="9957000" />
       <workItem from="1569348223880" duration="2497000" />
+      <workItem from="1569406995974" duration="1432000" />
     </task>
     <servers />
   </component>
