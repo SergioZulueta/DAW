@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+#titulo{
+background-color: #C1C1C1;
+width: 100%;
+margin: 0px;
+color: #E2E2E2;
+word-spacing: 0.2em;
+padding: 0px 0px 30px 0px;
+font-size:30px;
+}
+#calend{
+background-color: #D3D3D3;
+width:20%;
+padding-left: 100px;
+height: 100%;
+position: absolute;
+top: 0px;
+right:0px;
+}
+th, a{
+	background-color: white;
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+#diario{
+float: left;
+width: 80%;
+max-height: 90%;
+overflow-y:scroll;
+padding: 5px 40px;
+}
+#diario div{
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+#diario div p{
+	padding-left: 5px;
+	color:#717171;
+}
+h3{
+	background-color: #D3D3D3;
+	color:white;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}

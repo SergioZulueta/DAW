@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+	background-color: #33FD8C;
+	max-width: 1000px;
+	margin-top: 10px;
+}
+div{
+border:2px solid black;
+}
+#contenedor{
+	margin: 0 auto;
+	border:none;
+}
+#cabecera{
+background-color: grey;
+height:15%;
+}
+#menu{
+background-color: grey;
+height: 5%;
+}
+#principal{
+background-color: black;
+height: 50%;
+}
+#col_izquierda{
+background-color: orange;
+float: left;
+width: 20%;
+height: 60%;
+}
+#col_derecha{
+background-color: blue;
+float: left;
+width: 20%;
+height: 100%;
+}
+#col_centro{
+background-color: #33FD8C;
+float: left;
+width: 60%;
+height: 80%;
+}
+#pie{
+background-color: grey;
+height: 10%;
+}

@@ -1,0 +1,18 @@
+/*#caja1{
+	width: 100px;
+	height: 200px;
+	border: 1px solid black;
+}*/
+/*
+#caja1{
+	width: 100px;
+	height: 200px;
+	border: 1px solid black;
+	overflow: hidden;
+}*/
+#caja1{
+	width: 100px;
+	height: 200px;
+	border: 1px solid black;
+	overflow: scroll;
+}

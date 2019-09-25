@@ -1,0 +1,17 @@
+a{
+
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+li:hover{
+    border:2px solid red;
+}
+li{
+    background-color: blue;
+    list-style: none;
+    padding: 5px;
+    margin:2px;
+    max-width: 7em;
+}

@@ -1,0 +1,24 @@
+div{
+	width: 200px;
+	height: 200px;
+	font-size: 40px;
+	overflow: hidden;
+	border: 1px solid black;
+	background-color: white;
+}
+#caja1{
+	position: absolute;
+	top:200px;
+	left:250px;
+	z-index: 2;
+}
+#caja2{
+	position: absolute;
+	top:150px;
+	left:180px;
+}
+#caja3{
+	position: absolute;
+	top:100px;
+	left:150px;
+}

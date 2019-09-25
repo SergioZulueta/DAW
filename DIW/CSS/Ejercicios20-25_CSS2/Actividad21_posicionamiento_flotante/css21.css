@@ -1,0 +1,18 @@
+*{
+	box-sizing: border-box;
+}
+.anterior{
+float: left;
+}
+.siguiente{
+	float: right;
+}
+#paginacion{
+	background-color: lightgrey;
+	height: 5%;
+	width: 95%;
+	margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}

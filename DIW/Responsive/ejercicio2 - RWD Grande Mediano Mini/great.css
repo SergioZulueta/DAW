@@ -1,0 +1,26 @@
+.display-great {
+display: block;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+header, footer, #wrapper {
+
+}
+
+#main-nav {
+	float: left;
+	width: 15%;
+}
+
+#main-section {
+	float: left;
+	width: 82%;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+footer{
+	clear: both;
+}

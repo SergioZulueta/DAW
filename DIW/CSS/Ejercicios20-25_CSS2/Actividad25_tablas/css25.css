@@ -1,0 +1,43 @@
+th{
+	padding: 5px;
+	color: #333;
+	background-image: url(imagenes/fondo_gris.gif);
+}
+.euro{
+	padding: 5px 5px 5px 15px;
+	background-image: url(imagenes/euro.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-color: #E6F3FF;
+}
+.dolar{	
+	padding: 5px 5px 5px 15px;
+		background-image: url(imagenes/dolar.png);
+	background-repeat: no-repeat;
+	background-position: left;	
+	background-color: #E6F3FF;
+}
+.libra{	
+	padding: 5px 5px 5px 15px;
+		background-image: url(imagenes/libra.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-color: #E6F3FF;
+}
+.yen{
+	padding: 5px 5px 5px 15px;
+		background-image: url(imagenes/yen.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-color: #E6F3FF;
+}
+table{
+	border-collapse: collapse;
+	text-align: center;
+}
+.par{
+	background-color: #FFFFCC;
+}
+tr:hover{
+	background-color: #FFFF66;
+}

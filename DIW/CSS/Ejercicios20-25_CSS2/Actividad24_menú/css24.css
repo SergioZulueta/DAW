@@ -1,0 +1,9 @@
+a:hover{
+	background-color: #E4E4E4;
+	background-image: url(imagenes/flecha_activa.png);
+	background-repeat: no-repeat;
+}
+a{
+	background-image: url(imagenes/flecha_inactiva.png);
+	background-repeat: no-repeat;
+}

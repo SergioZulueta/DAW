@@ -1,0 +1,13 @@
+.display-mini {
+display: block;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+select.display-mini {
+width: 100%;
+font-size: 20px;
+}

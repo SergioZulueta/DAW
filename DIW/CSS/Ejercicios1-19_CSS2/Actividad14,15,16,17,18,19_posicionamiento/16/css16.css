@@ -1,0 +1,13 @@
+#bricolaje{
+ text-align: center;
+ background-color: olive;
+ padding-top: 10px;
+}
+#todo{
+	max-width: 1000px;
+	margin:0 auto;
+}
+#contenido{
+	display: flex;
+	justify-content: space-between;
+}
