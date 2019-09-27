@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/14/actividad14.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/14/actividad14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/15/actividad15.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/15/actividad15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/actividad16.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/actividad16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/17/actividad17.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/17/actividad17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/18/actividad18.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/18/actividad18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/19/actividad19.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/19/actividad19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +111,7 @@
       <workItem from="1569348223880" duration="2497000" />
       <workItem from="1569406995974" duration="1432000" />
       <workItem from="1569438541668" duration="1565000" />
+      <workItem from="1569566411376" duration="527000" />
     </task>
     <servers />
   </component>
