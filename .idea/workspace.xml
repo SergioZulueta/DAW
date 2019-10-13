@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/DIW/REPASO/ejercicio.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DWEC/Repaso/CALCULADORA.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DWEC/Repaso/CALCULADORA.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DWEC/Repaso/ejercicio.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DWEC/Repaso/ejercicio.js" afterDir="false" />
+=======
+>>>>>>> master
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,10 +122,14 @@
       <workItem from="1569348223880" duration="2497000" />
       <workItem from="1569406995974" duration="1432000" />
       <workItem from="1569438541668" duration="1565000" />
+<<<<<<< HEAD
       <workItem from="1570207417882" duration="642000" />
       <workItem from="1570269691397" duration="158000" />
       <workItem from="1570882432453" duration="1801000" />
       <workItem from="1570996306819" duration="3270000" />
+=======
+      <workItem from="1569566411376" duration="527000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
