@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DIW/REPASO/ejercicio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Repaso/CALCULADORA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Repaso/CALCULADORA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Repaso/ejercicio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Repaso/ejercicio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/14/actividad14.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/14/actividad14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/15/actividad15.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/15/actividad15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/actividad16.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/16/actividad16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/17/actividad17.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/17/actividad17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/18/actividad18.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/18/actividad18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/19/actividad19.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad14,15,16,17,18,19_posicionamiento/19/actividad19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/CSS/Ejercicios1-19_CSS2/Actividad9,10,11_textos/11/actividad11.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/Ejercicios1-19_CSS2/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DWEC/Practica3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,6 +45,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Clase\SEGUNDO DAW\DAW\DIW\REPASO" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DWEC/Practica3" />
       <recent name="$PROJECT_DIR$/DWEC/Practica2" />
@@ -69,29 +65,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ejemplo2.html">
-    <configuration name="Ejercicio2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Practica3/Ejercicio2.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.ejemplo1.html">
+    <configuration name="actividad24.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios20-25_CSS2/Actividad24_menú/actividad24.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="actividad12.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/12/actividad12.html" useBuiltInWebServerPort="true">
+    <configuration name="actividad25.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios20-25_CSS2/Actividad25_tablas/actividad25.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="actividad13.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad12,13_listas/13/actividad13.html" useBuiltInWebServerPort="true">
+    <configuration name="ejemplo1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Responsive/ejercicio1 - RWD Birds/ejemplo1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="actividad23.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios20-25_CSS2/Actividad23_tipografia/actividad23.html" useBuiltInWebServerPort="true">
+    <configuration name="ejemplo4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Responsive/ejercicio3 - RWD Falcon/ejemplo4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ejemplo2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Responsive/ejercicio2 - RWD Grande Mediano Mini/ejemplo2.html" useBuiltInWebServerPort="true">
+    <configuration name="ejercicio.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/REPASO/ejercicio.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.ejemplo2.html" />
-        <item itemvalue="JavaScript Debug.actividad23.html" />
-        <item itemvalue="JavaScript Debug.actividad13.html" />
-        <item itemvalue="JavaScript Debug.actividad12.html" />
-        <item itemvalue="JavaScript Debug.Ejercicio2.html" />
+        <item itemvalue="JavaScript Debug.ejemplo1.html" />
+        <item itemvalue="JavaScript Debug.ejemplo4.html" />
+        <item itemvalue="JavaScript Debug.actividad24.html" />
+        <item itemvalue="JavaScript Debug.actividad25.html" />
+        <item itemvalue="JavaScript Debug.ejercicio.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +119,10 @@
       <workItem from="1569348223880" duration="2497000" />
       <workItem from="1569406995974" duration="1432000" />
       <workItem from="1569438541668" duration="1565000" />
+      <workItem from="1570207417882" duration="642000" />
+      <workItem from="1570269691397" duration="158000" />
+      <workItem from="1570882432453" duration="1801000" />
+      <workItem from="1570996306819" duration="3270000" />
     </task>
     <servers />
   </component>

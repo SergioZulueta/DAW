@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript" src="ejercicio.js"></script>
+<body>
+DNI: <input type="text" name="" id="dni"><br>
+NOMBRE: <input type="text" name="" id="DFG"><br>
+COD: <input type="text" name="" id="cod">
+CENTRO: <SELECT NAME="selCombo" SIZE=1 onChange="javascript:alert('prueba');">
+    <OPTION VALUE="link pagina 1">IPARRALDE</OPTION>
+    <OPTION VALUE="link pagina 2">JUDIZMENDI</OPTION>
+</SELECT> <br>
+HORAI: <input type="text" name="" id="hinicio">
+HORAF: <input type="text" name="" id="hfin"><br>
+
+<p>TRIMESTRE </p>
+<input type="checkbox" name="trimestre" class="trimestre" value="PRIMERO">PRIMERO<br>
+<input type="checkbox" name="trimestre" class="trimestre" value="SEGUNDO">SEGUNDO <br>
+<input type="checkbox" name="trimestre" class="trimestre" value="TERCERO">TERCENRO <br>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function comprobarDatos(nombre, correo) {
+            let expRegNom = /^[A-Z][a-z]+$/;
+            let expRegCorreo = /^[A-Za-z]+@gmail\.com$/
+            if (!expRegNom.test(nombre) || !expRegCorreo.test(correo)) {
+                alert("Nombre o correo introducido erroneo");
+            } else {
+                alert("Usuario guardado");
+            }
+        }
+        function comprobarVacio() {
+            let nom = document.getElementById("nombre").value;
+            let apel = document.getElementById("apellido").value;
+            let correo = document.getElementById("email").value;
+            let poblacion = document.getElementById("poblacion").value;
+            let provincia = document.getElementById("provincia").value;
+            let edades = document.getElementsByClassName("edad");
+            let edad = "";
+            let conocidos = document.getElementsByClassName("conocido");
+            let conocido = "";
+            for (var i = 0; i < edades.length; i++) {
+                if (edades[i].checked) {
+                    edad = edades[i].value;
+                }
+            }
+            for (var i = 0; i < conocidos.length; i++) {
+                if (conocidos[i].checked) {
+                    conocido += conocidos[i].value + " ";
+                }
+            }
+            if (nom != "" && apel != "" && correo != "" && poblacion != "" &&
+                provincia != "" && edad != "" && conocido != "") {
+                comprobarDatos(nom, correo);
+                alert("Nombre introducido: " + nom + "\n" +
+                    "Apellidos introducidos: " + apel + "\n" +
+                    "Corrreo introducido: " + correo + "\n" +
+                    "Poblacion introducida " + poblacion + "\n" +
+                    "Provincia introducida " + provincia + "\n" +
+                    "Tu edad esta entre " + edad + "\n" +
+                    "Nos conoces gracias a " + conocido);
+            } else {
+                alert("No has rellenado algun campo")
+            }
+        }
+        function borrarDatos() {
+            let nom = document.getElementById("nombre").value = "";
+            let apel = document.getElementById("apellido").value = "";
+            let correo = document.getElementById("email").value = "";
+            let poblacion = document.getElementById("poblacion").value = "";
+            let provincia = document.getElementById("provincia").value = "";
+            document.getElementsByClassName("edad").forEach((x) => x.checked == false);
+            document.getElementsByClassName("conocido").forEach((y) => y.checked == false);
+        }
+    </script>
+</head>
+<body>
+Nombre: <input type="text" name="" id="nombre"><br><br>
+Apellidos: <input type="text" id="apellido" name=""><br><br>
+Corrreo electronico: <input type="text" id="email" name="" placeholder="example@gmail.com"><br><br>
+Poblacion: <input type="text" id="poblacion" name=""><br><br>
+Provincia: <input type="text" id="provincia" name=""><br><br>
+<p>Edad:</p>
+<input type="radio" name="edad" class="edad" value="0-20"> 0-20 <br>
+<input type="radio" name="edad" class="edad" value="20-40"> 20-40 <br>
+<input type="radio" name="edad" class="edad" value="40-60"> 40-60 <br>
+<input type="radio" name="edad" class="edad" value="60-100"> 60-100 <br>
+<p>¿Como nos has conocido? </p>
+<input type="checkbox" name="conocido" class="conocido" value="un amigo">A traves de un amigo<br>
+<input type="checkbox" name="conocido" class="conocido" value="un buscador">A traves de un buscador <br>
+<input type="checkbox" name="conocido" class="conocido" value="navegar por la red">Navegando por la red <br>
+<input type="checkbox" name="conocido" class="conocido" value="otros motivos">Otros <br><br>
+<input type="button" name="" value="Enviar formulario" onclick="comprobarVacio()"><input type="button" name=""
+                                                                                         onclick="borrarDatos()"
+                                                                                         value="Borrar datos">
+</body>
+</html>
