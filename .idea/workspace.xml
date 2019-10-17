@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/echoprint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio08.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio09.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio10.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWES/holamundo.php" beforeDir="false" afterPath="$PROJECT_DIR$/DWES/PRUEBAS/holamundo.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,29 +71,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.echoprint.php">
-    <configuration name="actividad4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/CSS/Ejercicios1-19_CSS2/Actividad4,5,6_modelo de cajas/Actividad4,5,6_modelo_cajas/4/actividad4.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.ejercicio10.php">
     <configuration name="echoprint.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/echoprint.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ejemplo1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Responsive/ejercicio1 - RWD Birds/ejemplo1.html" useBuiltInWebServerPort="true">
+    <configuration name="ejercicio07.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio07.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ejemplo4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/Responsive/ejercicio3 - RWD Falcon/ejemplo4.html" useBuiltInWebServerPort="true">
+    <configuration name="ejercicio09.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio09.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="holamundo.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/holamundo.php" useBuiltInWebServerPort="true">
+    <configuration name="ejercicio10.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio10.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ejercicio09.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio09.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.ejercicio10.php" />
+        <item itemvalue="PHP Script.ejercicio09.php" />
+        <item itemvalue="JavaScript Debug.ejercicio09.php" />
+        <item itemvalue="JavaScript Debug.ejercicio07.php" />
         <item itemvalue="JavaScript Debug.echoprint.php" />
-        <item itemvalue="JavaScript Debug.holamundo.php" />
-        <item itemvalue="JavaScript Debug.ejemplo1.html" />
-        <item itemvalue="JavaScript Debug.actividad4.html" />
-        <item itemvalue="JavaScript Debug.ejemplo4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +131,7 @@
       <workItem from="1570996306819" duration="3612000" />
       <workItem from="1571005211117" duration="506000" />
       <workItem from="1571253309587" duration="1552000" />
+      <workItem from="1571304918389" duration="4496000" />
     </task>
     <servers />
   </component>
