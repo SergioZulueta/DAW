@@ -2,58 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio11.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio12.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio13.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio14.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio15.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio16.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio17.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio18.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio19.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio20.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio1-7.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio1-7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio10.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio11.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio12.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio12.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio13.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio13.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio14.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio15.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio15.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio16.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio16.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio17.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio17.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio18.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio18.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio19.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio19.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio20.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio20.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio21.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio21.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio22.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio22.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio23.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio23.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio24.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio24.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio25.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio25.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio26.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio26.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio27.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio27.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio28.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio28.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio29.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio29.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio30.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio30.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio31.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio31.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio32.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio32.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio8.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica1/Ejercicio9.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica1/Ejercicio9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio10.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio11.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio12.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio12.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio2.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio3.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio4.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio5.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio6.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio8.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica2/Ejercicio9.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica2/Ejercicio9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica3/Ejercicio1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica3/Ejercicio1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica3/Ejercicio2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Practica3/Ejercicio2.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Practica3/Ejercicio2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Repaso/CALCULADORA.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Repaso/CALCULADORA.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Repaso/CALCULADORA.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Repaso/CALCULADORA.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Repaso/ejercicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Repaso/ejercicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Repaso/ejercicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto1/Repaso/ejercicio.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +25,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DAW" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/xampp/php/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -119,29 +83,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ejercicio1.js">
-    <configuration name="echoprint.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/echoprint.php" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.ejercicio20.php">
+    <configuration name="ejercicio10.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio10.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio07.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio07.php" useBuiltInWebServerPort="true">
+    <configuration name="ejercicio11.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio11.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio09.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio09.php" useBuiltInWebServerPort="true">
+    <configuration name="ejercicio12.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio12.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio10.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio10.php" useBuiltInWebServerPort="true">
+    <configuration name="ejercicio13.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio13.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Reto2/Practica1">
+    <configuration name="ejercicio15.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio15.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ejercicio20.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio20.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ejercicio1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Reto2/Practica1">
+      <method v="2" />
+    </configuration>
+    <configuration name="ejercicio13.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio13.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.ejercicio1.js" />
-        <item itemvalue="JavaScript Debug.ejercicio10.php" />
-        <item itemvalue="JavaScript Debug.ejercicio09.php" />
-        <item itemvalue="JavaScript Debug.ejercicio07.php" />
-        <item itemvalue="JavaScript Debug.echoprint.php" />
+        <item itemvalue="JavaScript Debug.ejercicio20.php" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +151,9 @@
       <workItem from="1571304918389" duration="4496000" />
       <workItem from="1571638879650" duration="2954000" />
       <workItem from="1571655103926" duration="128000" />
+      <workItem from="1571725343886" duration="5032000" />
+      <workItem from="1571730778982" duration="138000" />
+      <workItem from="1571730938540" duration="2952000" />
     </task>
     <servers />
   </component>
