@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio21.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio22.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/funciones.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/FORMULARIOS/ejercicio1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio20.php" beforeDir="false" afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio20.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ejercicio21.php">
+  <component name="RunManager" selected="JavaScript Debug.ejercicio1.php">
     <configuration name="ejercicio10.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio10.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -92,6 +89,9 @@
     <configuration name="ejercicio15.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio15.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="ejercicio1.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/FORMULARIOS/ejercicio1.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="ejercicio20.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio20.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -104,6 +104,11 @@
     <configuration name="ejercicio13.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio13.php">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.ejercicio1.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -146,6 +151,7 @@
       <workItem from="1571730778982" duration="138000" />
       <workItem from="1571730938540" duration="2952000" />
       <workItem from="1571824302331" duration="2141000" />
+      <workItem from="1571828124088" duration="418000" />
     </task>
     <servers />
   </component>
