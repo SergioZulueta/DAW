@@ -13,18 +13,19 @@ html {
 body {
     background-color: lightgray;
     font-family:sans-serif;
-    /*Añade aquí las propiedades Flexbox*/
+    display: flex;
+    justify-content: center;
 }
 
 /* Contenedor */
 main {
-    width: 800px;
-    /*Añade aquí las propiedades Flexbox*/
+    width: 800px;display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 
 main > * {
-  /*Añade aquí las propiedades Flexbox*/
+    /*Añade aquí las propiedades Flexbox*/
 }
 
 /* Navegación */
@@ -34,12 +35,18 @@ ul.principal {
     padding: 10px;
     background: gray;
     list-style: none;
-    /*Añade aquí las propiedades Flexbox*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .menu {
     height: 32px;
-    /*Añade aquí las propiedades Flexbox*/
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu a {
@@ -51,12 +58,12 @@ ul.principal {
 }
 
 .social {
-  /*Añade aquí las propiedades Flexbox*/
+    display: flex;
+    margin: 5px;
 }
 
 #movil {
     background-color: gray;
-    /*Añade aquí las propiedades Flexbox*/
     border-radius: 10px;
     padding: 10px;
     display: none;
@@ -100,11 +107,15 @@ ul.principal {
 }
 
 #subscribe form {
-  /*Añade aquí las propiedades Flexbox*/
+    display: flex;
+    justify-content: space-around;
 }
 
 #subscribe form > * {
-  /*Añade aquí las propiedades Flexbox*/
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+    align-self: center;
 }
 
 /* Footer */
@@ -120,9 +131,33 @@ footer {
 
 /* Puntos de ruptura */
 @media (max-width: 768px) {
-  /*Añade aquí las propiedades Flexbox*/
+    #banner{
+        order: 2;
+    }
+    #subscribe{
+        order: 1;
+    }
+    #subscribe form{
+        flex-direction: column;
+    }
+    #contenido{
+        order: 3;
+    }
+    footer{
+        order: 4;
+    }
+    #subscribe form > * {
+        margin-bottom: 10px;
+        align-self: normal;
+    }
+    #movil{
+        display: flex;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 340px) {
-  /*Añade aquí las propiedades Flexbox*/
+    #movil{
+
+    }
 }

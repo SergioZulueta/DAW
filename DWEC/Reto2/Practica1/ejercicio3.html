@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script src="ejercicio3.js"></script>
+</head>
 </head>
 <body>
-$END$
+<form name="form1" method="POST">
+
+    <fieldset id="field">
+        Para probar primero, usar al principio sin seleccionar ningun radioButton
+        <input type="button" value="Crear caja de texto" onclick="crear(this)">
+        <label><input type="radio" name="posicion" id="principio" value="principio" >Principio</label>
+        <label><input type="radio" name="posicion" id="final" value="final" >Final</label>
+        <label><input type="radio" name="posicion" id="otro" value="otro" onclick="desplegable();this.onclick=null;">Otro</label>
+
+    </fieldset>
+</form>
+
 </body>
 </html>
