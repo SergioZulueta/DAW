@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio11.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio12.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio13.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio14.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio15.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio16.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio17.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio18.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio19.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio20.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio21.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio22.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWES/PRUEBAS/funciones.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio20.php" beforeDir="false" afterPath="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio20.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ejercicio20.php">
+  <component name="RunManager" selected="JavaScript Debug.ejercicio21.php">
     <configuration name="ejercicio10.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio10.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -99,7 +92,10 @@
     <configuration name="ejercicio15.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio15.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio20.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio20.php" useBuiltInWebServerPort="true">
+    <configuration name="ejercicio20.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio20.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ejercicio21.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio21.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="ejercicio1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Reto2/Practica1">
@@ -108,11 +104,6 @@
     <configuration name="ejercicio13.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/DWES/PRUEBAS/ejercicio13.php">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.ejercicio20.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -154,6 +145,7 @@
       <workItem from="1571725343886" duration="5032000" />
       <workItem from="1571730778982" duration="138000" />
       <workItem from="1571730938540" duration="2952000" />
+      <workItem from="1571824302331" duration="2141000" />
     </task>
     <servers />
   </component>

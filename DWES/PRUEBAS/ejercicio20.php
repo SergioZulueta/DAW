@@ -15,6 +15,16 @@ Suma del 15 al 115 = 6565
 <?php
 
 $numero = 15;
+
+
+for($x = 0; $x > 100;){
+    $numero = $numero + $numero;
+    return $numero;
+    $x ++;
+}
+
+echo $numero;
+
 ?>
 </body>
 </html>
