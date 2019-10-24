@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/2/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/3/Ejercicio3/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/4 - Menú horizontal/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/4 - Menú horizontal/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/5 - Gato1/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/5 - Gato1/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio2.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/3/Ejercicio3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/3/Ejercicio3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio3.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +54,16 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/DWEC/Reto1" />
-      <recent name="D:\Clase\SEGUNDO DAW\DAW\DWES\PRUEBAS" />
-      <recent name="D:\Clase\SEGUNDO DAW\DAW\DIW\REPASO" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DWEC/Practica3" />
       <recent name="$PROJECT_DIR$/DWEC/Practica2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios6-7" />
+      <recent name="$PROJECT_DIR$/DIW/GRID" />
+      <recent name="$PROJECT_DIR$/DWEC/Reto1" />
+      <recent name="D:\Clase\SEGUNDO DAW\DAW\DWES\PRUEBAS" />
+      <recent name="D:\Clase\SEGUNDO DAW\DAW\DIW\REPASO" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="ejercicio10.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio10.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -108,19 +103,19 @@
     <configuration name="ejercicio2.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Reto2/Practica1/ejercicio2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="ejercicio3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Reto2/Practica1/ejercicio3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="elementos_grid.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/GRID/1/elementos_grid.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/2/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/3/Ejercicio3/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/4 - Menú horizontal/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/5 - Gato1/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/1/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios6-7/6/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="ejercicio1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Reto2/Practica1">
@@ -131,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
-        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.ejercicio3.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.elementos_grid.html" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +177,7 @@
       <workItem from="1571824302331" duration="2141000" />
       <workItem from="1571828124088" duration="418000" />
       <workItem from="1571847850060" duration="7145000" />
+      <workItem from="1571898615616" duration="2849000" />
     </task>
     <servers />
   </component>

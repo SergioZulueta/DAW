@@ -3,7 +3,7 @@ let form = document.documentElement.lastChild.children[0];
 let contador = 0;
 
 function desplegable() {
-    let input = crear('posicion');
+    let input = crearPosicion('posicion');
     form2.appendChild(input);
 }
 

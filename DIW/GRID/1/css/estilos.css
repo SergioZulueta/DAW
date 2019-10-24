@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Primer contenedor para explicar propiedades generales */
+.container {
+  margin: 20px auto;
+  width: 60%;
+}
+
+#azul {
+  background-color: blue;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#amarillo {
+  background-color: yellow;
+}
+
+/* Segundo contenedor para explicar el auto-grid-flow */
+.main {
+  background-color: darkgray;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.main div:nth-child(1) {
+  background-color: blue;
+}
+
+.main div:nth-child(2) {
+  background-color: burlywood;
+}
+
+.main div:nth-child(3) {
+  background-color: brown;
+}
+
+.main div:nth-child(4) {
+  background-color: green;
+}
+.main div:nth-child(5) {
+  background-color: black;
+}
