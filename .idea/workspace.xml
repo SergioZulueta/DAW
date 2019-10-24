@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/3/Ejercicio3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DIW/FLEXBOX/Ejercicios1-5/3/Ejercicio3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio3.js" beforeDir="false" afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWES/FORMULARIOS/ejercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/DWES/FORMULARIOS/ejercicio1.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.ejercicio1.php">
     <configuration name="ejercicio10.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio10.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -94,6 +92,9 @@
     <configuration name="ejercicio15.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio15.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="ejercicio1.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/FORMULARIOS/ejercicio1.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="ejercicio20.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio20.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -104,9 +105,6 @@
       <method v="2" />
     </configuration>
     <configuration name="ejercicio3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Reto2/Practica1/ejercicio3.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="elementos_grid.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/GRID/1/elementos_grid.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/2/index.html" useBuiltInWebServerPort="true">
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.ejercicio1.php" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.ejercicio3.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.elementos_grid.html" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +176,8 @@
       <workItem from="1571828124088" duration="418000" />
       <workItem from="1571847850060" duration="7145000" />
       <workItem from="1571898615616" duration="2849000" />
+      <workItem from="1571907471107" duration="6000" />
+      <workItem from="1571910212031" duration="4205000" />
     </task>
     <servers />
   </component>
