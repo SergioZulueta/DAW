@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df05cf71-1fda-4b16-a696-14712a7a9fa6" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica2/Ejercicio1/añadir.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica2/Ejercicio1/buscar.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica2/Ejercicio1/ejercicio1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica2/Ejercicio1/ejercicio1.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio4.js" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +31,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+<<<<<<< Updated upstream
         <option value="JavaScript File" />
         <option value="HTML File" />
+=======
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -79,6 +89,7 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="JavaScript Debug.añadir.html">
     <configuration name="añadir.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Reto2/Practica2/Ejercicio1/añadir.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -86,6 +97,9 @@
     <configuration name="buscar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Reto2/Practica2/Ejercicio1/buscar.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+=======
+  <component name="RunManager" selected="JavaScript Debug.ejercicio4.html">
+>>>>>>> Stashed changes
     <configuration name="ejercicio10.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWES/PRUEBAS/ejercicio10.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -116,9 +130,24 @@
     <configuration name="ejercicio2.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Reto2/Practica1/ejercicio2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/2/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+=======
+    <configuration name="ejercicio3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Reto2/Practica1/ejercicio3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ejercicio4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DWEC/Reto2/Practica1/ejercicio4.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/2/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW/DIW/FLEXBOX/Ejercicios1-5/1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+>>>>>>> Stashed changes
     <configuration name="ejercicio1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DWEC/Reto2/Practica1/ejercicio1.js" working-dir="$PROJECT_DIR$/DWEC/Reto2/Practica1">
       <method v="2" />
     </configuration>
@@ -127,11 +156,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="JavaScript Debug.añadir.html" />
         <item itemvalue="JavaScript Debug.buscar.html" />
         <item itemvalue="JavaScript Debug.ejercicio1.html" />
         <item itemvalue="JavaScript Debug.ejercicio1.php" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+=======
+        <item itemvalue="JavaScript Debug.ejercicio4.html" />
+        <item itemvalue="JavaScript Debug.ejercicio1.php" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.ejercicio3.html" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +218,11 @@
       <workItem from="1571898615616" duration="2849000" />
       <workItem from="1571907471107" duration="6000" />
       <workItem from="1571910212031" duration="4205000" />
+<<<<<<< Updated upstream
       <workItem from="1571998577780" duration="2297000" />
+=======
+      <workItem from="1571941434839" duration="2403000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
