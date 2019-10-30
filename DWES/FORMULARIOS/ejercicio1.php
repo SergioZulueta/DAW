@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
     <title>Hola mundo PHP</title>
