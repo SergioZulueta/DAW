@@ -1,0 +1,55 @@
+<?php
+session_start();
+$_SESSION["total"]= 0;
+require_once 'funcionesdatos.php';
+
+/*** FUNCIONES ***/
+function calcularImporte($productos){
+
+    foreach ($productos as $id => $producto){
+        if (isset($_GET[$id])) {
+            $_SESSION["total"] +=  $producto["precio"]*$_GET[$id];
+        }
+    }
+    return $_SESSION["total"];
+}
+
+function imprimirDetalle($productos) {
+    echo "<ul>";
+    foreach ($productos as $id => $producto){
+        if (isset($_GET[$id]) &&  $_GET[$id] > 0){
+            echo "<li>{$producto['nombre']} ({$_GET[$id]})</li>";
+        }
+    }
+    echo "</ul>";
+}
+
+?>
+
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios PHP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+<h1>Tienda online</h1>
+<h2>Compra realizada correctamente</h2>
+<h3>Precio total:</h3>
+<p>
+    El importe total de la compra realizado es de <?= calcularImporte($productos) ?> euros.
+</p>
+<h3>Detalle de la compra</h3>
+<?= imprimirDetalle($productos) ?>
+
+<a href="ejercicio7.php" class="btn btn-primary">Volver a la tienda</a>
+
+
+</body>
+</html>
