@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Ejercicios PHP</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         body {
             padding: 15px;
@@ -14,10 +15,11 @@
 <?php
 require_once 'funcionesdatos.php';
 
-function generarTablaProductos($productos) {
+function generarTablaProductos($productos)
+{
     echo "
         <table class='table'>
-            <thead>
+                    <thead>
                 <tr><th>Nombre</th><th>Descripción</th><th>Precio</th><th>Cantidad</th></tr>
             </thead>
             <tbody>
@@ -28,7 +30,8 @@ function generarTablaProductos($productos) {
     echo "</tbody></table>";
 }
 
-function crearFilaProducto($id, $producto) {
+function crearFilaProducto($id, $producto)
+{
     echo "<tr>
             <td>{$producto['nombre']}</td>
             <td>{$producto['descripción']}</td>
