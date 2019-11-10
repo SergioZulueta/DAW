@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="reglasNavegacion.js"></script>
+    <script src="buscar.js"></script>
 </head>
 <body>
 
 <h2>Buscar contacto</h2>
 
-Nombre: <input type="text"><br>
-Organizacion: <select>
-
-</select>
+<form>
+    <label>Nombre: </label>
+    <input type="text" name="nombre" id="nombre">
+    <br/><br/>
+    <label>Organizacion: </label>
+    <select name="organizacion" name="organizacion" id="organizacion">
+        <option value=""></option>
+    </select>
+    <br/><br/><br/>
+    <input type="button" value="Buscar" onclick="buscar()">
+    <input type="button" value="Inicio" onclick="irInicio()">
+</form>
 
 </body>
 </html>

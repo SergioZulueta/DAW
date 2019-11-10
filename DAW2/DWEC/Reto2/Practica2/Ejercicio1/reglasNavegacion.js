@@ -8,3 +8,8 @@ function irBusqueda() {
     location.href="buscar.html"
 }
 
+function irInicio(){
+    console.log("Ir inicio")
+    location.href="ejercicio1.html"
+}
+

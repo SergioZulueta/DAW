@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="reglasNavegacion.js"></script>
+    <script src="añadir.js"></script>
 </head>
 <body>
-
-Nombre: <input type="text"><br>
-Organizacion: <input type="text"><br>
-Movil: <input type="text"><br>
-<input type="submit" value="Añadir campo"><br>
-
+<main>
+    <form method="post">
+        <label>Nombre: <input type="text" name="nombre"></label><br>
+        <label>Organizacion: <input type="text" name="organizacion"></label><br>
+        <label>Movil: <input type="number" name="movil"></label><br><br>
+        <input type="button" value="AñadirCampo" name="AñadirCampo" onclick="añadirCampo()"><br>
+        <input type="button" value="Confirmar"  name="Confirmar" onclick="confirmar()">
+        <input type="button" value="borrar"  name="borrar" onclick="vaciarInput()"><br>
+        <input type="button" value="Inicio" onclick="irInicio()">
+    </form>
+</main>
 </body>
 </html>
