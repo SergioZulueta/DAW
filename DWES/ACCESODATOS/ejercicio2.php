@@ -22,6 +22,7 @@ function connect()
     $dbh = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
     return $dbh;
 }
+
 function consulta($dbh)
 {
     echo "-------Datos de la tabla-------<hr></hr>";
@@ -31,7 +32,8 @@ function consulta($dbh)
     return $stmt;
 }
 
-function añadir($dbh){
+function añadir($dbh)
+{
     if (isset($_POST['nombre']) && !empty ($_POST['nombre']) && isset($_POST['apellidos']) && !empty ($_POST['apellidos'])) {
         $data = array(
             'nombre' => $_POST['nombre'],
@@ -47,7 +49,8 @@ function añadir($dbh){
     }
 }
 
-function delete($dbh){
+function delete($dbh)
+{
     if (isset($_POST['id']) && !empty ($_POST['id'])) {
         $data = array(
             'id' => $_POST['id']
@@ -62,14 +65,13 @@ function delete($dbh){
     }
 }
 
-if (isset($_POST['añadir'])){
+if (isset($_POST['añadir'])) {
     añadir($dbh);
 }
 
-if (isset($_POST['borrar'])){
+if (isset($_POST['borrar'])) {
     delete($dbh);
 }
-
 
 
 ?>

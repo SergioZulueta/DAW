@@ -7,7 +7,7 @@ function añadirCampo() {
 }
 
 function confirmar() {
-    validaciones();
+    //validaciones();
     let arrayCampos = [];
     try {
         for (let x = 0; x < document.getElementsByTagName("input").length; x++) {
@@ -45,13 +45,13 @@ function validaciones() {
         } else
             alert("Los datos introudcidos NO son correctos");
         try{
-            if(nombre.empty()){
+            if(nombre.isEmpty()){
                 alert("El nombre es obligatorio");
             }
-            if(movil.empty()){
+            if(movil.isEmpty()){
                 alert("El movil es obligatorio");
             }
-            if(organizacion.empty()){
+            if(organizacion.isEmpty()){
                 alert("La organizacion es obligatorio");
             }
         }catch (error) {
