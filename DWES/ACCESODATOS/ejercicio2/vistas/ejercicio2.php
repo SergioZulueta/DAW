@@ -1,11 +1,5 @@
 <?php
-include ("../funciones.php");
-$dbh = connect();
-include ("header&footer/header.php");
-
-?>
-
-<?php
+include("partials/header.php");
 
 ?>
 <table>
@@ -19,14 +13,13 @@ include ("header&footer/header.php");
     </thead>
     <tbody>
 
-    <?php
-
-    $stmt = consulta($dbh);
-    ?>
     <td>
         <?php
         foreach ($items as $item) {
-            echo "{$item->texto} (<a href='../union.php?accion=eliminar&id={$item->id}'>Eliminar</a>)";
+            echo "<tr><td> {$item->id}</td> ";
+            echo "<td> {$item->nombre} </td> ";
+            echo "<td> {$item->apellidos} </td>";
+            echo "<td> (<a href='../union.php?accion=eliminar={$item->id}'>Eliminar</a>)</td></tr>";
         }
         ?>
     </td>
@@ -37,18 +30,19 @@ include ("header&footer/header.php");
 </table>
 </div>
 </table>
-<form action="ejercicio2.php" method="post" name="form">
+<form action="ejercicio2.php" method="get" name="form">
     <input type="text" name="nombre" placeholder="nombre" required>
     <input type="text" name="apellidos" placeholder="apellidos" required>
     <input type="hidden" name="accion" value="insertar">
     <input type="submit" value="Añadir">
 </form>
 
-<form action="ejercicio2.php" method="post" name="formEliminar">
+<form action="ejercicio2.php" method="get" name="formEliminar">
     <input type="text" name="id" placeholder="id" required>
+    <input type="hidden" name="accion" value="delete">
     <input type="submit" value="borrar" name="borrar">
 </form>
 
 <?php
-include ("header&footer/footer.php");
+include("partials/footer.php");
 ?>

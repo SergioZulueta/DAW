@@ -5,24 +5,17 @@ function connect()
     $host = "localhost";
     $user = "root";
     $pass = "";
-    $dbh = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
+    $dbh = new PDO ("mysql:host=$host;dbname=$dbname", $user, $pass);
     return $dbh;
 }
 
 
 function consulta($dbh)
 {
-    echo "-------Datos de la tabla-------<hr></hr>";
     $stmt = $dbh->prepare("SELECT id, nombre, apellidos FROM empresa");
-    $stmt->setFetchMode(PDO::FETCH_ASSOC);
+    $stmt->setFetchMode(PDO::FETCH_OBJ);
     $stmt->execute();
-
-    while ($row = $stmt->fetch()) {
-
-        echo "<tr><td>" . $row['id'] . "</td>";
-        echo "<td>" . $row['nombre'] . "</td>";
-        echo "<td>" . $row['apellidos'] . "</td>";
-    }
+    return $stmt->fetchAll();
 }
 
 function insertar($dbh, $nombre, $apellidos)
@@ -60,7 +53,6 @@ function eliminarPorId($dbh, $id)
         'id' => $id
     );
     $stmt = $dbh->prepare("DELETE FROM empresa WHERE id = :id");
-    $stmt->setFetchMode(PDO::FETCH_ASSOC);
     $stmt->execute($data);
 }
 

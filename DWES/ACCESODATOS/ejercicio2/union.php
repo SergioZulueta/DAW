@@ -1,25 +1,26 @@
 <?php
 include ("funciones.php");
-include ("vistas/ejercicio2.php");
+
 
 $dbh = connect();
 
-if(isset($_POST["accion"])) {
-    $accion = $_POST["accion"];
+if(isset($_GET["accion"])) {
+    $accion = $_GET["accion"];
     switch ($accion) {
         case 'insertar':
-            $nombre = $_POST["nombre"];
-            $apellidos = $_POST["apellidos"];
+            $nombre = $_GET["nombre"];
+            $apellidos = $_GET["apellidos"];
             insertar($dbh, $nombre, $apellidos);
             break;
         case 'eliminar':
-            $id = $_POST["id"];
+            $id = $_GET["id"];
             eliminarPorId($dbh,$id);
             break;
-        case 'eliminarid':
+        case 'delete':
             delete($dbh);
     }
 }
-
 $items = consulta($dbh);
+include ("vistas/ejercicio2.php");
+
 ?>
