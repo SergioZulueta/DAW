@@ -19,18 +19,17 @@ include("partials/header.php");
             echo "<tr><td> {$item->id}</td> ";
             echo "<td> {$item->nombre} </td> ";
             echo "<td> {$item->apellidos} </td>";
-            echo "<td> (<a href='../union.php?accion=eliminar={$item->id}'>Eliminar</a>)</td></tr>";
+            echo "<td> (<a href='../../../ACCESODATOS/ejercicio2/union.php?accion=eliminar={$item->id}'>Eliminar</a>)</td></tr>";
         }
         ?>
     </td>
-
     </tr>
 
     </tbody>
 </table>
 </div>
 </table>
-<form action="ejercicio2.php" method="get" name="form">
+<form action="ejercicio2.php" method="get">
     <input type="text" name="nombre" placeholder="nombre" required>
     <input type="text" name="apellidos" placeholder="apellidos" required>
     <input type="hidden" name="accion" value="insertar">

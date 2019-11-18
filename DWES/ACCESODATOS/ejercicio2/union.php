@@ -8,9 +8,11 @@ if(isset($_GET["accion"])) {
     $accion = $_GET["accion"];
     switch ($accion) {
         case 'insertar':
-            $nombre = $_GET["nombre"];
-            $apellidos = $_GET["apellidos"];
-            insertar($dbh, $nombre, $apellidos);
+            $data = array(
+                'nombre' => $_GET["nombre"],
+                'apellidos' => $_GET["apellidos"]
+            );
+            insertar($dbh, $data);
             break;
         case 'eliminar':
             $id = $_GET["id"];

@@ -5,8 +5,15 @@ function connect()
     $host = "localhost";
     $user = "root";
     $pass = "";
-    $dbh = new PDO ("mysql:host=$host;dbname=$dbname", $user, $pass);
-    return $dbh;
+    try {
+        $dbh= new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
+        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        return $dbh;
+    }
+    catch(PDOException $e) {
+        echo $e->getMessage();
+        return null;
+    }
 }
 
 
@@ -18,14 +25,10 @@ function consulta($dbh)
     return $stmt->fetchAll();
 }
 
-function insertar($dbh, $nombre, $apellidos)
+function insertar($dbh, $data)
 {
-        $data = array(
-            'nombre' => $nombre,
-            'apellidos' => $apellidos,
-        );
+    echo "hola";
         $stmt = $dbh->prepare("INSERT INTO empresa(nombre, apellidos) values (:nombre, :apellidos)");
-        $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $stmt->execute($data);
 
         echo "datos insertados";
@@ -33,6 +36,7 @@ function insertar($dbh, $nombre, $apellidos)
 
 function delete($dbh)
 {
+    echo "hola";
     if (isset($_POST['id']) && !empty ($_POST['id'])) {
         $data = array(
             'id' => $_POST['id']

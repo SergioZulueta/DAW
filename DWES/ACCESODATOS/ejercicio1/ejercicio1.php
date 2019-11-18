@@ -15,7 +15,7 @@ function connect()
     return $dbh;
 }
 
-function consulta($dbh)
+function consulta1($dbh)
 {
     echo "------Datos de la tabla-----<hr></hr>";
     $stmt = $dbh->prepare("SELECT nombre, apellidos, edad FROM alumno");
@@ -65,13 +65,13 @@ function update($dbh){
 }
 
 $dbh = connect();
-consulta($dbh);
+consulta1($dbh);
 insert($dbh);
-consulta($dbh);
+consulta1($dbh);
 delete($dbh, 3);
-consulta($dbh);
+consulta1($dbh);
 update($dbh);
-consulta($dbh);
+consulta1($dbh);
 
 ?>
 
