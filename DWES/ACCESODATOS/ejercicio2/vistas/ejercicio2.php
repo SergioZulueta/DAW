@@ -19,7 +19,7 @@ include("partials/header.php");
             echo "<tr><td> {$item->id}</td> ";
             echo "<td> {$item->nombre} </td> ";
             echo "<td> {$item->apellidos} </td>";
-            echo "<td> (<a href='../../../ACCESODATOS/ejercicio2/union.php?accion=eliminar={$item->id}'>Eliminar</a>)</td></tr>";
+            echo "<td> (<a href='../../../ACCESODATOS/ejercicio2/union.php?accion=eliminar&id={$item->id}'>Eliminar</a>)</td></tr>";
         }
         ?>
     </td>

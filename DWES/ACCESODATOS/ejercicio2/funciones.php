@@ -27,7 +27,7 @@ function consulta($dbh)
 
 function insertar($dbh, $data)
 {
-    echo "hola";
+
         $stmt = $dbh->prepare("INSERT INTO empresa(nombre, apellidos) values (:nombre, :apellidos)");
         $stmt->execute($data);
 
@@ -36,7 +36,7 @@ function insertar($dbh, $data)
 
 function delete($dbh)
 {
-    echo "hola";
+
     if (isset($_POST['id']) && !empty ($_POST['id'])) {
         $data = array(
             'id' => $_POST['id']
