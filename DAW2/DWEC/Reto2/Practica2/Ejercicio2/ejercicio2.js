@@ -1,3 +1,33 @@
+class Autor {
+    constructor(dni, nombreApellidos) {
+        this.dni = dni;
+        this.nombreApellidos = nombreApellidos;
+    }
+}
+
+
+let autores = [new Autor("12807129Q", "Sergio Zulueta"), new Autor("79767288E", "Iñaki Caballero"),
+    new Autor("03145950X", "Miguel Barros")];
+
+
+class Libro {
+    constructor(titulo, ISBN, tipo, ejemplares, disponibilidad, fecha, autor) {
+        this.titulo = titulo;
+        this.ISBN = ISBN;
+        this.tipo = tipo;
+        this.ejemplares = ejemplares;
+        this.disponibilidad = disponibilidad;
+        this.fecha = fecha;
+        this.autor = [];
+    }
+}
+
+let libros = [new Libro("JS", "4375512270118", "Ciencia ficcion", 300, true, "", autores[0]),
+    new Libro("PHP", "5332351355016", "Aventura", 100, true, "", autores[1]),
+    new Libro("CSS", "5280038344122", "Aventura", 200, false, "19/12/2019", autores[2]),
+    new Libro("Servidores", "6859523270261", "Comedia", 200, false, "22/12/2019", autores[2])];
+
+
 let si = document.getElementById("si");
 let no = document.getElementById("no");
 
@@ -115,6 +145,13 @@ function mostrarCaja() {
     fecha.style.display = "block";
 }
 
+
+/**
+ * Me da error si las pongo
+ * @param dni
+ * @param isbn
+ * @returns {boolean}
+ */
 function validarDatos(dni, isbn) {
     try {
         let expRegIsbn = document.getElementById("isbn")
