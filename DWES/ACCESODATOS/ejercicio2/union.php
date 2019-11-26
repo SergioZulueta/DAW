@@ -19,7 +19,8 @@ if(isset($_GET["accion"])) {
             eliminarPorId($dbh,$id);
             break;
         case 'delete':
-            delete($dbh);
+            $id = $_GET["id"];
+            echo delete($dbh, $id);
     }
 }
 $items = consulta($dbh);

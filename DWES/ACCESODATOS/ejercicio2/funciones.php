@@ -34,21 +34,18 @@ function insertar($dbh, $data)
         echo "datos insertados";
 }
 
-function delete($dbh)
+function delete($dbh, $id)
 {
 
-    if (isset($_POST['id']) && !empty ($_POST['id'])) {
         $data = array(
-            'id' => $_POST['id']
+            'id' =>$id
         );
-        $stmt = $dbh->prepare("DELETE FROM empresa WHERE id = :id");
-        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        $stmt = $dbh->prepare('DELETE FROM empresa WHERE id = :id');
+        $stmt->setFetchMode(PDO::FETCH_OBJ);
         $stmt->execute($data);
-
+        return $stmt->rowCount();
         echo "datos eliminados";
-    } else {
-        echo "problemas al eliminar";
-    }
+
 }
 
 function eliminarPorId($dbh, $id)
