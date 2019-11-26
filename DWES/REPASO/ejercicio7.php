@@ -7,8 +7,10 @@ function contar($animales, $colores){
     return "el array de animales tiene: " . count($animales)  . " y el de colores: " . count($colores);
 }
 
-function añadirFinal($animales, $nuevoAnimal){
-    return $animales = array_push($animales, $nuevoAnimal);
+function añadirFinal($animales){
+
+        array_push($animales, "castillo");
+        return $animales;
 
 }
 ?>
@@ -21,9 +23,9 @@ function añadirFinal($animales, $nuevoAnimal){
 
 <?= contar($animales, $colores)?>
 <?php
-$animalesUnom = añadirFinal($animales, $nuevoAnimal);
+añadirFinal($animales);
 echo "<pre>";
-    print_r($animalesUnom);
+    print_r(añadirFinal($animales));
 echo "</pre>";
 ?>
 
