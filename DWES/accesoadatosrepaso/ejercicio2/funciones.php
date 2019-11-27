@@ -9,3 +9,12 @@ function connect(){
     return $dbh;
 }
 
+function consulta($dbh){
+
+    $stmt = $dbh -> prepare("SELECT id, nombre, apellidos FROM empresa");
+    $stmt->setFetchMode(PDO::FETCH_OBJ);
+    $stmt->execute();
+    return $stmt->fetchAll();
+
+
+}
