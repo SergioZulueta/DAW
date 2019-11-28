@@ -9,7 +9,6 @@ class Autor {
 let autores = [new Autor("12807129Q", "Sergio Zulueta"), new Autor("79767288E", "Iñaki Caballero"),
     new Autor("03145950X", "Miguel Barros")];
 
-
 class Libro {
     constructor(titulo, ISBN, tipo, ejemplares, disponibilidad, fecha, autor) {
         this.titulo = titulo;
@@ -40,8 +39,6 @@ function cargarDatos() {
 function enviar() {
     let isbn = document.getElementById("isbn");
     let dni = document.getElementsByClassName("dni");
-
-
 
     let titulo = document.getElementById("titulo");
     let tipo = document.getElementById("listaLibros");
@@ -137,6 +134,9 @@ function ocultarCaja() {
     let fecha = document.getElementById("fecha");
 
     fecha.style.display = "none";
+
+    $("#fecha").css("display", "none");
+
 }
 
 function mostrarCaja() {

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta sobre los movimientos de las cuentas</title>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="validaciones.js" type="text/javascript"></script>
+</head>
+<style>
+    div.hidden {
+        display: none;
+    }
+</style>
+<body>
+<h2>Consultas sobre los movimientos de las cuentas</h2>
+<form>
+    <label for="numcuenta">Número de cuenta</label>
+    <input type="number" id="numcuenta" required placeholder="EEEEOOOODDNNNNNNNNNN">
+    <br/>
+    <br/>
+    <input type="radio" id="hoy" name="group1">
+    <label for="hoy">De hoy</label>
+    <br/>
+    <input type="radio" id="fechas" name="group1">
+    <label for="fechas">Por fechas</label>
+    <br/>
+    <br/>
+    <label for="desde">Desde:</label>
+    <input type="date" id="desde">
+    <label for="hasta">Hasta:</label>
+    <input type="date" id="hasta">
+    <br/>
+    <br/>
+    <input type="checkbox" id="importes">
+    <label for="importes">Por importes</label>
+    <br/>
+    <br/>
+    <div id="optional" class="hidden">
+        <label for="minimo">Importe mínimo:</label>
+        <input type="number" id="minimo">
+        <label for="maximo">Importe máximo:</label>
+        <input type="number" id="maximo">
+        <br/>
+    </div>
+    <button type="button" id="submit">Solicitar consulta</button>
+    <div id="respuesta">
+
+    </div>
+</form>
+</body>
+</html>
