@@ -123,6 +123,11 @@ fabric.properties
 .vagrant/
 .vagrant
 
+./.vagrant
+.vagrant/machines/default/virtualbox/creator_uid
+
+
+
 # Log files (if you are creating logs in debug mode, uncomment this)
 # *.log
 
