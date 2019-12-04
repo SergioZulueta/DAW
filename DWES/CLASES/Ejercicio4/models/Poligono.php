@@ -1,7 +1,7 @@
 <?php
 
 
-class Poligono{
+abstract class Poligono{
     public $color, $altura, $anchura;
 
 
@@ -11,6 +11,9 @@ class Poligono{
         $this->altura = $altura;
         $this->anchura = $anchura;
     }
+
+    abstract function area();
+
 
     public function getColor()
     {
