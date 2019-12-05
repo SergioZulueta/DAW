@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h4,
+p {
+  margin: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  color: #666666;
+  font-family: "Lobster", cursive;
+  margin: 20px auto;
+  width: 90%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 80px 180px 80px;
+  grid-gap: 20px;
+  grid-template-areas: "header header header header"
+  "nav main main aside"
+  "footer footer footer footer";
+
+}
+
+header {
+  border-bottom: 1px solid #666666;
+  padding: 1em;
+  text-align: center;
+  grid-area: header;
+}
+
+nav {
+  padding: 1em;
+  grid-area: nav;
+}
+
+nav div {
+  margin-bottom: 20px;
+}
+
+main {
+  border: 1px solid #aaaaaa;
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
+  width: 90%;
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "abajo abajo abajo"
+  "izquierda centro derecha";
+  grid-gap: 20px;
+}
+
+main img {
+  border-radius: 1em;
+  height: 70%;
+  width: 80%;
+}
+
+article {
+  border: 1px solid #aaaaaa;
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
+
+}
+
+article img {
+  border-radius: 1em;
+  height: 60%;
+  width: 100%;
+}
+
+article:nth-of-type(2),
+article:nth-of-type(3),
+article:nth-of-type(4) {
+  width: 90%;
+}
+
+/* Pie de la página */
+footer {
+  border-top: 1px solid #666666;
+  padding: 2em;
+  grid-area: footer;
+  display: flex;
+  flex-basis: auto;
+}
+
+footer img {
+  border-radius: 25px;
+  width: 50px;
+}
+
