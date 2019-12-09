@@ -1,0 +1,12 @@
+{
+  "name": "vagrant/ejercicio3",
+  "require": {
+    "monolog/monolog": "^2.0",
+    "fzaninotto/faker": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "gestionDependencias\\ejercicio3\\models\\": "models/"
+    }
+  }
+}

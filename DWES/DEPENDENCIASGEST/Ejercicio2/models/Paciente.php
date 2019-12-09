@@ -1,33 +1,27 @@
 <?php
-
+namespace gestionDependencias\ejercicio2\models;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
+class Paciente
+{
+    private $nombre, $apellido, $edad, $loger;
 
-
-class Paciente{
-    public $nombre, $apellidos, $edad;
-
-    /**
-     * Paciente constructor.
-     * @param $nombre
-     * @param $apellidos
-     * @param $edad
-     */
-    public function __construct($nombre, $apellidos, $edad)
+    public function __construct($nombre, $apellido, $edad)
     {
         $this->nombre = $nombre;
-        $this->apellidos = $apellidos;
+        $this->apellido = $apellido;
         $this->edad = $edad;
+        $this->loger = $log = new Logger('estado');
+        $this->loger->pushHandler(new StreamHandler('your.log',0, Logger::INFO,0777));
     }
-
-    public function enfermar(){
-
+    public function enfermar()
+    {
+        $this->loger->info('estoy enfermo');
     }
-
-    public function curar(){
-
+    public function curar()
+    {
+        $this->loger->info('estoy curado!!');
     }
-
     /**
      * @return mixed
      */
@@ -35,31 +29,27 @@ class Paciente{
     {
         return $this->nombre;
     }
-
     /**
      * @param mixed $nombre
      */
-    public function setNombre($nombre): void
+    public function setNombre($nombre)
     {
         $this->nombre = $nombre;
     }
-
     /**
      * @return mixed
      */
-    public function getApellidos()
+    public function getApellido()
     {
-        return $this->apellidos;
+        return $this->apellido;
     }
-
     /**
-     * @param mixed $apellidos
+     * @param mixed $apellido
      */
-    public function setApellidos($apellidos): void
+    public function setApellido($apellido)
     {
-        $this->apellidos = $apellidos;
+        $this->apellido = $apellido;
     }
-
     /**
      * @return mixed
      */
@@ -67,13 +57,11 @@ class Paciente{
     {
         return $this->edad;
     }
-
     /**
      * @param mixed $edad
      */
-    public function setEdad($edad): void
+    public function setEdad($edad)
     {
         $this->edad = $edad;
     }
-
 }
