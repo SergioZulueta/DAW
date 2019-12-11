@@ -6,3 +6,5 @@
 </head>
 <body>
 <h1>@yield("tienda")</h1>
+
+@yield("tabla")

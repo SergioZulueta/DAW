@@ -3,7 +3,7 @@
 
 class Zapatilla{
 
-    private $marca, $modelo, $tipo, $precio;
+    private $marca, $modelo, $tipo, $precio, $id;
 
     /**
      * Zapatilla constructor.
@@ -12,12 +12,13 @@ class Zapatilla{
      * @param $tipo
      * @param $precio
      */
-    public function __construct($marca, $modelo, $tipo, $precio)
+    public function __construct($marca, $modelo, $tipo, $precio, $id)
     {
         $this->marca = $marca;
         $this->modelo = $modelo;
         $this->tipo = $tipo;
         $this->precio = $precio;
+        $this->id = $id;
     }
 
     /**
@@ -82,6 +83,22 @@ class Zapatilla{
     public function setPrecio($precio): void
     {
         $this->precio = $precio;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     */
+    public function setId($id): void
+    {
+        $this->id = $id;
     }
 
 
