@@ -6,4 +6,5 @@
 </head>
 <body>
 <h1><?php echo $__env->yieldContent("tienda"); ?></h1>
-<?php /**PATH /vagrant/MOTORESPLANTILLAS/Ejercicio5/views/layouts/layout.blade.php ENDPATH**/ ?>
+
+<?php echo $__env->yieldContent("tabla"); ?><?php /**PATH /vagrant/MOTORESPLANTILLAS/Ejercicio5/views/layouts/layout.blade.php ENDPATH**/ ?>
