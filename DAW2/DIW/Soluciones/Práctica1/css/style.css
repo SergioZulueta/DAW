@@ -11,52 +11,49 @@ p {
 body {
   background-color: white;
 }
-
+/* Este es el contenedor General donde fijo la estructura de la rejilla o Grid */
 .container {
   color: #666666;
+  display: grid;
   font-family: "Lobster", cursive;
+  grid-auto-flow: row;
+  grid-row-gap: 1em;
+  grid-template-columns: 10% 30% 30% 30%;
+  grid-template-rows: 100px 400px 300px 100px;
   margin: 20px auto;
   width: 90%;
-
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 80px 180px 80px;
-  grid-gap: 20px;
-  grid-template-areas: "header header header header"
-  "nav main main aside"
-  "footer footer footer footer";
-
 }
 
+/* Cabecera de la página */
 header {
   border-bottom: 1px solid #666666;
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
   padding: 1em;
   text-align: center;
-  grid-area: header;
 }
 
+/* Menú lateral */
 nav {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
   padding: 1em;
-  grid-area: nav;
 }
 
 nav div {
   margin-bottom: 20px;
 }
 
+/* Imagen grande */
 main {
   border: 1px solid #aaaaaa;
   border-radius: 1em;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  justify-self: center;
   padding: 1em;
   text-align: center;
   width: 90%;
-  grid-area: main;
-  display: grid;
-  grid-template-columns: 1fr 30%;
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas: "abajo abajo abajo"
-  "izquierda centro derecha";
-  grid-gap: 20px;
 }
 
 main img {
@@ -65,12 +62,12 @@ main img {
   width: 80%;
 }
 
+/* Resto de imágenes. Colocadas por grid-auto-flow que por defecto es row */
 article {
   border: 1px solid #aaaaaa;
   border-radius: 1em;
   padding: 1em;
   text-align: center;
-
 }
 
 article img {
@@ -82,20 +79,22 @@ article img {
 article:nth-of-type(2),
 article:nth-of-type(3),
 article:nth-of-type(4) {
+  justify-self: end;
   width: 90%;
 }
 
 /* Pie de la página */
 footer {
+  align-items: center;
   border-top: 1px solid #666666;
-  padding: 2em;
-  grid-area: footer;
   display: flex;
-  flex-basis: auto;
+  grid-column: 1 / 5;
+  grid-row: 4 / 5;
+  justify-content: space-between;
+  padding: 2em;
 }
 
 footer img {
   border-radius: 25px;
   width: 50px;
 }
-
