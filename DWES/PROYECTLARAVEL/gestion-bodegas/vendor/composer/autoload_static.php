@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitca2c8b3c14f3238f1fe70148914261d5
+class ComposerStaticInitaab066c8037ecad1589da2a3fe95f1f8
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -2109,15 +2109,19 @@ class ComposerStaticInitca2c8b3c14f3238f1fe70148914261d5
         'League\\Flysystem\\Adapter\\SynologyFtp' => __DIR__ . '/..' . '/league/flysystem/src/Adapter/SynologyFtp.php',
         'League\\Flysystem\\Config' => __DIR__ . '/..' . '/league/flysystem/src/Config.php',
         'League\\Flysystem\\ConfigAwareTrait' => __DIR__ . '/..' . '/league/flysystem/src/ConfigAwareTrait.php',
+        'League\\Flysystem\\ConnectionErrorException' => __DIR__ . '/..' . '/league/flysystem/src/ConnectionErrorException.php',
+        'League\\Flysystem\\ConnectionRuntimeException' => __DIR__ . '/..' . '/league/flysystem/src/ConnectionRuntimeException.php',
         'League\\Flysystem\\Directory' => __DIR__ . '/..' . '/league/flysystem/src/Directory.php',
         'League\\Flysystem\\Exception' => __DIR__ . '/..' . '/league/flysystem/src/Exception.php',
         'League\\Flysystem\\File' => __DIR__ . '/..' . '/league/flysystem/src/File.php',
         'League\\Flysystem\\FileExistsException' => __DIR__ . '/..' . '/league/flysystem/src/FileExistsException.php',
         'League\\Flysystem\\FileNotFoundException' => __DIR__ . '/..' . '/league/flysystem/src/FileNotFoundException.php',
         'League\\Flysystem\\Filesystem' => __DIR__ . '/..' . '/league/flysystem/src/Filesystem.php',
+        'League\\Flysystem\\FilesystemException' => __DIR__ . '/..' . '/league/flysystem/src/FilesystemException.php',
         'League\\Flysystem\\FilesystemInterface' => __DIR__ . '/..' . '/league/flysystem/src/FilesystemInterface.php',
         'League\\Flysystem\\FilesystemNotFoundException' => __DIR__ . '/..' . '/league/flysystem/src/FilesystemNotFoundException.php',
         'League\\Flysystem\\Handler' => __DIR__ . '/..' . '/league/flysystem/src/Handler.php',
+        'League\\Flysystem\\InvalidRootException' => __DIR__ . '/..' . '/league/flysystem/src/InvalidRootException.php',
         'League\\Flysystem\\MountManager' => __DIR__ . '/..' . '/league/flysystem/src/MountManager.php',
         'League\\Flysystem\\NotSupportedException' => __DIR__ . '/..' . '/league/flysystem/src/NotSupportedException.php',
         'League\\Flysystem\\PluginInterface' => __DIR__ . '/..' . '/league/flysystem/src/PluginInterface.php',
@@ -4288,10 +4292,10 @@ class ComposerStaticInitca2c8b3c14f3238f1fe70148914261d5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitca2c8b3c14f3238f1fe70148914261d5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitca2c8b3c14f3238f1fe70148914261d5::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitca2c8b3c14f3238f1fe70148914261d5::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitca2c8b3c14f3238f1fe70148914261d5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitaab066c8037ecad1589da2a3fe95f1f8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitaab066c8037ecad1589da2a3fe95f1f8::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitaab066c8037ecad1589da2a3fe95f1f8::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitaab066c8037ecad1589da2a3fe95f1f8::$classMap;
 
         }, null, ClassLoader::class);
     }
