@@ -6,7 +6,7 @@
         <label>Nombre</label>
         <input class="form-control" type="text" name="nombre" placeholder="Nombre" required>
         <label>Descripcion</label>
-        <input class="form-control" type="text" name="descripcion" placeholder="descripcion" required>
+        <textarea class="form-control" name="descripcion" placeholder="descripcion" required></textarea>
         <label>Año</label>
         <input class="form-control" type="text" name="año" placeholder="Año" required>
         <label>Alcohol</label>
