@@ -12,12 +12,13 @@
         <label>Alcohol</label>
         <input class="form-control" type="text" name="alcohol" placeholder="Porcentaje de alcohol" required>
         <label>Tipo de Vino</label>
-        <select class="form-control">
-            <option value="tipo" name="tipo">Tinto</option>
+        <select name="tipo" class="form-control">
+            <option value="Tinto" name="tipo">Tinto</option>
             <option value="Blanco" name="tipo">Blanco</option>
             <option value="Rosado" name="tipo">Rosado</option>
         </select>
         <br><br>
+        <input type="hidden" name="id_bodega" value="{{$id_bodega}}">
         <input type="hidden" name="accion" value="insertar">
         <input type="submit" class="btn btn-primary" value="Añadir">
     </div>
