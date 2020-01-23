@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #323A46;
+	font-family: Arial;
+}
+
+.contenedor {
+	margin: 0 auto;
+	max-width: 1000px;
+	overflow:hidden;
+	width: 80%; /*"Jamas" utilizaremos pixels, deberemos utilizar medidas dinámicas, con %*/
+}
+
+header{
+	background: #EB4A33;
+	margin: 20px 0;
+}
+
+header h1{
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.main {
+	background: #fff;
+	box-sizing: border-box; /*En RWD si añadimos margin o padding, estamos añadiendo más anchura 
+	a la suma de 70% (main) y 30% (aside), es decir, nos da más del 100%. Para que las cajas aparezcan
+	donde deben debemos utilizar esta propiedad. Para que el padding se mida por dentro y 
+	de esta se respete el ancho declarado*/
+	float: left;
+	padding: 20px;
+	width: 70%;
+}
+
+.main img {
+	width: 100%; /*Para que la imagen tambien se adapte, siempre coger una imagen muy grande y poner 
+	el width al 100%. Para que la imagen no se descompense al cambiar de viewport, poner el height auto*/
+	height: auto;
+}
+
+aside {
+	background: #ccc;
+	box-sizing: border-box;
+	float: left;
+	padding: 20px;
+	width: 30%;
+}
+
+footer {
+	background: #000;
+	box-sizing: border-box;
+	clear: both;
+	color: #fff;
+	margin-top: 20px;
+	padding: 20px;
+	width: 100%;
+}
+
+/*---------MEDIA QUERIES--------*/
+
+@media screen and (max-width: 800px) {
+	body {
+		background: #ff8000;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	body {
+		background: #ff8000;
+	}
+
+	.contenedor {
+		width: 100%;
+	}
+
+	aside {
+		display: none;
+	}
+}  

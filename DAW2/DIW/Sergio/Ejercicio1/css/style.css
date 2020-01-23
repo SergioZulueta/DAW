@@ -1,0 +1,89 @@
+body {
+	font-family: Myriad Pro,Verdana,Geneva,sans-serif;
+	margin: 0 auto;
+	width: 90%;
+}
+/*-----CABECERA-----*/
+.cabecera {
+	overflow: hidden;
+	background: #61D7A4;
+}
+.cabecera img {
+	float: left;
+}
+/*-----------CONTENEDOR--------------*/
+.contenedor {
+	overflow: hidden;
+}
+.menu {
+	float:left;
+	width: 20%;
+}
+.menu ul li{
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.contenido {
+	float:left;
+	width: 80%;
+}
+/*----------SERVICIOS----------*/
+.columna {
+	float:left;
+	width: 25%;
+	margin-right: 4%;
+	margin-left: 4%;
+}
+#servicios
+{
+	height: auto;
+	text-align:center;	
+	width: 100%;
+	overflow: hidden;
+}
+.destino{
+	width:100%;
+}
+h2.cabecera_servicios{
+	text-align: center;
+	background: #3BA3D0;
+}
+/*-------------NOSOTROS-------------*/
+
+#nosotros
+{
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+#guia1, #guia2, #guia3 {
+	margin: 20px auto;
+	width: 90%;
+	clear: both;
+}
+
+#guia1 img {
+	float: left;
+}
+#guia2 img {
+	float: right;
+}
+#guia3 img {
+	float: left;
+}
+h2.cabecera_nosotros{
+	text-align: center;
+	background: #3BA3D0;
+}
+/*-------FOOTER-------*/
+
+#pie p{
+	padding-top: 20px;
+	height: 60px;
+	background: #303441;
+	text-align: center;
+	color: white;
+}
