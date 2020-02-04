@@ -2,6 +2,8 @@
 
 @section('content')
 
+    <a href="{{route('createPruebas')}}">Crear prueba</a>
+
     <table>
         <tr>
             <th>codigo</th>

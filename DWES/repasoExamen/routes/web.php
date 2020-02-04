@@ -28,7 +28,7 @@ Route::post('/pruebas', 'PruebaController@store')->name('pruebaStore');
 Route::get('/pruebas/{id}', 'PruebaController@show')->name('showPruebas');
 Route::get('/pruebas/{id}/edit', 'PruebaController@edit')->name('editPruebas');
 Route::post('/pruebas/{id}', 'PruebaController@update')->name('pruebaUpdate');
-Route::delete('/pruebas/{id}', 'PruebaController@delete')->name('pruebaDelete');
+Route::get('/pruebas/{id}/delete', 'PruebaController@destroy')->name('pruebaDelete');
 
 
 

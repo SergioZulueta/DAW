@@ -1,0 +1,29 @@
+laravel new Ejercicio
+
+mysql -u root
+
+GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost' IDENTIFIED BY 'pass';
+
+CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'tu_contrasena';
+GRANT ALL PRIVILEGES ON * . * TO 'nombre_usuario'@'localhost';
+FLUSH PRIVILEGES;
+
+Cambiar el env
+
+php artisan make:model Ejercicio -mcr
+
+composer require laravel/ui
+
+php artisan ui:auth
+
+php artisan ui bootstrap --auth
+
+php artisan ui bootstrap
+
+npm install
+
+npm install --no-bin-links
+
+npm install --global cross-env
+
+npm run dev

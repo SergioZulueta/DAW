@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Prueba;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use mysql_xdevapi\Table;
 
 class PruebaController extends Controller
 {
@@ -26,7 +28,7 @@ class PruebaController extends Controller
      */
     public function create()
     {
-        //
+        return view('anadirPrueba');
     }
 
     /**
@@ -37,7 +39,12 @@ class PruebaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $prueba = new Prueba();
+        $prueba->titulo=request('titulo');
+        $prueba->subtitulo=request('subtitulo');
+        $prueba->telefono=request('telefono');
+        $prueba->save();
+        return redirect(route('pruebaIndex'));
     }
 
     /**
@@ -48,7 +55,11 @@ class PruebaController extends Controller
      */
     public function show($id)
     {
-
+        //$prueba = DB::table('pruebas')->where("id", $id)->first();
+        $prueba = Prueba::find($id);
+        return view('showPruebas', [
+           "prueba" => $prueba
+        ]);
     }
 
     /**
@@ -80,8 +91,13 @@ class PruebaController extends Controller
      * @param  \App\Prueba  $prueba
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Prueba $prueba)
+    public function destroy($id)
     {
-        //
+        //$prueba = DB::table('pruebas')->where('id', '=', $id)->delete();
+
+        $prueba = Prueba::find($id);
+        $prueba->delete();
+
+        return redirect(route('pruebaIndex'));
     }
 }
