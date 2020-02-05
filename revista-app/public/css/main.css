@@ -1,0 +1,13 @@
+body {
+    margin:0;
+}
+
+.index-lead {
+    padding: 3rem 1rem;
+}
+
+.footer {
+    height: 60px;
+    line-height: 60px;
+    background-color:#fff;
+}
