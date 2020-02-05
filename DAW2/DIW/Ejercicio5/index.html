@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Página con Bootstrap</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <style>
+        .header{
+            background-color: rgb(236, 236, 236);
+        }
+
+        .maleta h3{
+            color: grey;
+        }
+
+        .anyway, .rocket, .maleta{
+            font-size: 10px;
+        }
+
+        .footer{
+            padding: 10px;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+      
+    </style>
+    <!--Contenedor DIV con clase "header". Internamente tiene la clase navbar y demás componentes Bootstrap-->
+  
+    <!--Contenedor DIV con clase "main". Internamente tiene otro contenedor DIV con la clase container y demás componentes Bootstrap-->
+   
+    <!--Contenedor DIV con clase "footer". Internamente tiene otro contenedor DIV con la clase container y demás componentes Bootstrap--> 
+
+            <div class="header container">
+                    <nav class="row">
+                        <div class="texto col-11 col-sm-7">
+                          <h5>Blasting off with bootstrap</h5>
+                        </div>
+                        <div class="dropdown show col-1 d-sm-none">
+                    
+                                <a class="btn row btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                              <div class="links d-none d-sm-block col-sm-5">
+                                  <a href="#">Take a Tour</a>
+                                  <a href="#">Buy Tickets</a>
+                              </div>
+                        </nav>
+             </div>
+             <div class="main">
+                <div class="container">
+                 <div class="container-title row d-flex flex-column flex-sm-row justify-content-center">
+                     <div class="contenedor-title-botones col-sm-6" >
+                        <h2 class="text-center text-sm-left">The Fastest Way To Space</h2>
+                        <p class="text-center text-sm-left">Lorem ipsum dolor amet lyft pop-up knausgaard meditation deep v pour-over af actually. 
+                            Pork belly cloud bread90's migas. 
+                            Pour-over tousled iPhone brunch af, kale chips swag bicycle rights 
+                            cardigan messenger bag. Readymade schlitz chambray meditation cornhole.
+                        </p>
+                        <div class="botones  d-flex justify-content-center">
+                                <a class="btn btn-secondary">Take a tour</a>
+                            <a class="btn btn-primary">Buy tickets now</a>
+                        </div>
+                    </div>
+                        <div class="img d-none d-sm-block col-sm-6">
+                            <img src="img/grumpy-cat.jpg">
+                        </div>
+                 </div>
+                 <br>
+                 <br>
+             
+                 <div class="row">
+                        <div class="col-6 col-sm-4 offset-3 offset-sm-0">
+                            <h2 class="text-center">Book Today</h2>
+                            <span>Lorem ipsum dolor amet polaroid slow-carb quinoa portland. VHS affogato hella, iceland mlkshk neutra craft beer put a bird on it taiyaki butcher bicycle rights kale chips. Umami pickled kombucha pabst, tilde YOLO tote bag meggings etsy enamel pin paleo. Tbh semiotics shoreditch, slow-carb post-ironic vape beard.</span>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <h2 class="text-center">Go Anywhere</h2>
+                            <span>Lorem ipsum dolor amet polaroid slow-carb quinoa portland. VHS affogato hella, iceland mlkshk neutra craft beer put a bird on it taiyaki butcher bicycle rights kale chips. Umami pickled kombucha pabst, tilde YOLO tote bag meggings etsy enamel pin paleo. Tbh semiotics shoreditch, slow-carb post-ironic vape beard.</span>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <h2 class="text-center">RocketBus</h2>
+                            <span>Lorem ipsum dolor amet polaroid slow-carb quinoa portland. VHS affogato hella, iceland mlkshk neutra craft beer put a bird on it taiyaki butcher bicycle rights kale chips. Umami pickled kombucha pabst, tilde YOLO tote bag meggings etsy enamel pin paleo. Tbh semiotics shoreditch, slow-carb post-ironic vape beard.</span>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+             </div>
+                <div class="footer row">
+                    <div class="asdas col-12">
+                        <h4>Who we are</h4>
+                    <p>      Pork belly cloud bread90's migas. 
+                            Pour-over tousled iPhone brunch af, kale chips swag bicycle rights 
+                            cardigan messenger bag. Readymade schlitz chambray meditation cornhole.
+                            Pour-over tousled iPhone brunch af, kale chips swag bicycle rights 
+                            cardigan messenger bag. Readymade schlitz chambray meditation cornhole.</p>
+                            <br>
+                            <h4>Links</h4>
+                            <a href="#">Home</a>
+                             <br>
+                            <a href="#">Tickets</a>
+
+                            <br>
+                            <a href="#">Buy</a>
+                            <br>
+
+                            <h4>Stay in touch</h4>
+    
+                            <a href="#">About</a>
+
+                            <br>
+                            <a href="#">Contact us</a>
+                            <br>
+
+                            <a href="#">Blog</a>
+                            <br>
+
+                            <a href="#">Sitemap</a>
+                            <br>
+
+                            <h4>Contact Us</h4>
+
+                            <h6>Orlando,FL</h6>
+                            <br>
+                            <h7>+34 555 555 555</h7>
+                            <br>
+                            <a href="#">hello@tuputamadre</a>
+                        </div>
+                </div>
+       
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
