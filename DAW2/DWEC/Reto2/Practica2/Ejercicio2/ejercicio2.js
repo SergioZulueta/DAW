@@ -168,3 +168,17 @@ function validarDatos(dni, isbn) {
     }
 
 }
+
+/*
+function campoVacio(campo) {
+        try {
+            if ($("input[name=" + campo + "]").val() == '') {
+                throw 'campo vacio';
+            }
+            return true;
+        } catch (e) {
+            alert(e);
+            return false;
+        }
+    }
+ */

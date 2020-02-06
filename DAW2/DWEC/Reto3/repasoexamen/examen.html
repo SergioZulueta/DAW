@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen</title>
+</head>
+<script src="ejercicio2.js"></script>
+<script src="jquery-3.4.1.js"></script>
+</head>
+<body onload="cargarDatos()">
+<form>
+    <h1>ALTA DE LIBROS</h1>
+
+    <div id="div">
+        <label>Titulo</label>
+        <input type="text" id="titulo"> <br>
+
+        <label>ISBN</label>
+        <input type="text" id="isbn"> <br>
+
+        <label>Tipo</label>
+        <select id="listaLibros" onchange="anadirDescripcion()">
+            <option>Ciencia ficcion</option>
+            <option>Terror</option>
+            <option>Aventura</option>
+            <option>Comedia</option>
+            <option value="Añadir Tipo"> Añadir Tipo</option>
+        </select> <br><br>
+    </div>
+
+    <div id="divAutores">
+        <h1>AUTOR</h1>
+
+        <label>Dni</label>
+        <input type="text" class="dni"> <br>
+
+        <label>Nombre y apellidos
+            <input type="text" class="nombreApellidos"><br><br>
+        </label>
+
+    </div>
+    <input type="button" value="+ Autores" onclick="anadirAutor()"> <br><br>
+
+    <label>Numero de ejemplares</label>
+    <input type="text" id="ejemplares"><br>
+
+    <label>Disponible : </label>
+    Si<input type="radio" id="si" name="disponible" onclick="ocultarCaja()"> No<input type="radio" id="no" name="disponible" onclick="mostrarCaja()"> <br>
+
+    <div id="fecha">
+        <label>Fecha a partir de la cual estara disponible</label>
+        <input type="date" ><br><br>
+    </div>
+    <input type="button" value="Enviar" onclick="enviar()">
+</form>
+</body>
+</html>
