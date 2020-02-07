@@ -11,3 +11,19 @@ const app = new Vue({
         ]
     }
 })
+
+
+<body>
+    <div id="app">
+
+        <h1>{{titulo}}</h1>
+        <ul>
+            <li v-for="animal of animales">{{animal.nombre}} - {{animal.cantidad}}<span v-if='animal.cantidad === 0'> - lolxd</span></li>
+        </ul>
+    </div>
+
+
+
+    <script src="vue.js"></script>
+    <script src="main.js"></script>
+</body>
